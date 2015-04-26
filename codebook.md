@@ -8,7 +8,8 @@ output: html_document
 Codebook for Coursera Getting and Cleaning Data project
 
 
-This code book explains the data in the TidyData table produced as output in the course project.  For more detailed understanding of the variables, it is necessary to refer to the original code book, features_info.txt, which is part of the github repository.
+This code book explains the data in the TidyData table produced as output in the course project.  For more detailed understanding of the variables, it is necessary to refer to the original code book, features_info.txt, which is part of the github repository.  
+
 ##Introduction & Background
 The assignment was to combine two datasets from a UC Irvine study Samsung motion study.  The training and test datasets were to be combined into a single dataset.  Clean the data as needed and then filter down to just the set of variables representing the mean and standard deviation calculations.  Then finally, to create a new tidy data set with that summarized the mean and standard deviation of those mean and sdev variable, where mean and std dev were calculated for each subject and activity.
 
@@ -82,22 +83,22 @@ The gravity measurements are acceleration signals calculated by the acceleromete
 
 All values are of class numeric, with values between -1 and 1.  
 
--TimeGravityAccMEAN_X_mean
--TimeGravityAccMEAN_Y_mean
--TimeGravityAccMEAN_Z_mean
--TimeGravityAccSDEV_X_mean
--TimeGravityAccSDEV_Y_mean
--TimeGravityAccSDEV_Z_mean
--TimeGravityAccMagMEAN_mean
--TimeGravityAccMagSDEV_mean
--TimeGravityAccMEAN_X_sd
--TimeGravityAccMEAN_Y_sd
--TimeGravityAccMEAN_Z_sd
--TimeGravityAccSDEV_X_sd
--TimeGravityAccSDEV_Y_sd
--TimeGravityAccSDEV_Z_sd
--TimeGravityAccMagMEAN_sd
--TimeGravityAccMagSDEV_sd
+* TimeGravityAccMEAN_X_mean
+* TimeGravityAccMEAN_Y_mean
+* TimeGravityAccMEAN_Z_mean
+* TimeGravityAccSDEV_X_mean
+* TimeGravityAccSDEV_Y_mean
+* TimeGravityAccSDEV_Z_mean
+* TimeGravityAccMagMEAN_mean
+* TimeGravityAccMagSDEV_mean
+* TimeGravityAccMEAN_X_sd
+* TimeGravityAccMEAN_Y_sd
+* TimeGravityAccMEAN_Z_sd
+* TimeGravityAccSDEV_X_sd
+* TimeGravityAccSDEV_Y_sd
+* TimeGravityAccSDEV_Z_sd
+* TimeGravityAccMagMEAN_sd
+* TimeGravityAccMagSDEV_sd
 
 ###Frequency Body Acclerometer Variables
 
@@ -106,36 +107,36 @@ The body measurements are acceleration signals calculated by the accelerometer .
 
 All values are of class numeric, with values between -1 and 1.  
 
--FreqBodyAccMEAN_X_mean
--FreqBodyAccMEAN_Y_mean
--FreqBodyAccMEAN_Z_mean
--FreqBodyAccSDEV_X_mean
--FreqBodyAccSDEV_Y_mean
--FreqBodyAccSDEV_Z_mean
--FreqBodyAccJerkMEAN_X_mean
--FreqBodyAccJerkMEAN_Y_mean
--FreqBodyAccJerkMEAN_Z_mean
--FreqBodyAccJerkSDEV_X_mean
--FreqBodyAccJerkSDEV_Y_mean
--FreqBodyAccJerkSDEV_Z_mean
--FreqBodyAccMagMEAN_mean
--FreqBodyAccMagSDEV_mean
--FreqBodyAccMEAN_X_sd
--FreqBodyAccMEAN_Y_sd
--FreqBodyAccMEAN_Z_sd
--FreqBodyAccSDEV_X_sd
--FreqBodyAccSDEV_Y_sd
--FreqBodyAccSDEV_Z_sd
--FreqBodyAccJerkMEAN_X_sd
--FreqBodyAccJerkMEAN_Y_sd
--FreqBodyAccJerkMEAN_Z_sd
--FreqBodyAccJerkSDEV_X_sd
--FreqBodyAccJerkSDEV_Y_sd
--FreqBodyAccJerkSDEV_Z_sd
--FreqBodyAccMagMEAN_sd
--FreqBodyAccMagSDEV_sd
--FreqBodyBodyAccJerkMagMEAN_sd
--FreqBodyBodyAccJerkMagSDEV_sd
+* FreqBodyAccMEAN_X_mean
+* FreqBodyAccMEAN_Y_mean
+* FreqBodyAccMEAN_Z_mean
+* FreqBodyAccSDEV_X_mean
+* FreqBodyAccSDEV_Y_mean
+* FreqBodyAccSDEV_Z_mean
+* FreqBodyAccJerkMEAN_X_mean
+* FreqBodyAccJerkMEAN_Y_mean
+* FreqBodyAccJerkMEAN_Z_mean
+* FreqBodyAccJerkSDEV_X_mean
+* FreqBodyAccJerkSDEV_Y_mean
+* FreqBodyAccJerkSDEV_Z_mean
+* FreqBodyAccMagMEAN_mean
+* FreqBodyAccMagSDEV_mean
+* FreqBodyAccMEAN_X_sd
+* FreqBodyAccMEAN_Y_sd
+* FreqBodyAccMEAN_Z_sd
+* FreqBodyAccSDEV_X_sd
+* FreqBodyAccSDEV_Y_sd
+* FreqBodyAccSDEV_Z_sd
+* FreqBodyAccJerkMEAN_X_sd
+* FreqBodyAccJerkMEAN_Y_sd
+* FreqBodyAccJerkMEAN_Z_sd
+* FreqBodyAccJerkSDEV_X_sd
+* FreqBodyAccJerkSDEV_Y_sd
+* FreqBodyAccJerkSDEV_Z_sd
+* FreqBodyAccMagMEAN_sd
+* FreqBodyAccMagSDEV_sd
+* FreqBodyBodyAccJerkMagMEAN_sd
+* FreqBodyBodyAccJerkMagSDEV_sd
 
 ###Frequency Body Gyroscope Variables
 
@@ -144,28 +145,28 @@ The body measurements are signals calculated by the gyroscope.  In the original 
 
 All values are of class numeric, with values between -1 and 1.  
 
--FreqBodyGyroMEAN_X_mean
--FreqBodyGyroMEAN_Y_mean
--FreqBodyGyroMEAN_Z_mean
--FreqBodyGyroSDEV_X_mean
--FreqBodyGyroSDEV_Y_mean
--FreqBodyGyroSDEV_Z_mean
--FreqBodyBodyAccJerkMagMEAN_mean
--FreqBodyBodyAccJerkMagSDEV_mean
--FreqBodyBodyGyroMagMEAN_mean
--FreqBodyBodyGyroMagSDEV_mean
--FreqBodyBodyGyroJerkMagMEAN_mean
--FreqBodyBodyGyroJerkMagSDEV_mean
--FreqBodyGyroMEAN_X_sd
--FreqBodyGyroMEAN_Y_sd
--FreqBodyGyroMEAN_Z_sd
--FreqBodyGyroSDEV_X_sd
--FreqBodyGyroSDEV_Y_sd
--FreqBodyGyroSDEV_Z_sd
--FreqBodyBodyGyroMagMEAN_sd
--FreqBodyBodyGyroMagSDEV_sd
--FreqBodyBodyGyroJerkMagMEAN_sd
--FreqBodyBodyGyroJerkMagSDEV_sd
+* FreqBodyGyroMEAN_X_mean
+* FreqBodyGyroMEAN_Y_mean
+* FreqBodyGyroMEAN_Z_mean
+* FreqBodyGyroSDEV_X_mean
+* FreqBodyGyroSDEV_Y_mean
+* FreqBodyGyroSDEV_Z_mean
+* FreqBodyBodyAccJerkMagMEAN_mean
+* FreqBodyBodyAccJerkMagSDEV_mean
+* FreqBodyBodyGyroMagMEAN_mean
+* FreqBodyBodyGyroMagSDEV_mean
+* FreqBodyBodyGyroJerkMagMEAN_mean
+* FreqBodyBodyGyroJerkMagSDEV_mean
+* FreqBodyGyroMEAN_X_sd
+* FreqBodyGyroMEAN_Y_sd
+* FreqBodyGyroMEAN_Z_sd
+* FreqBodyGyroSDEV_X_sd
+* FreqBodyGyroSDEV_Y_sd
+* FreqBodyGyroSDEV_Z_sd
+* FreqBodyBodyGyroMagMEAN_sd
+* FreqBodyBodyGyroMagSDEV_sd
+* FreqBodyBodyGyroJerkMagMEAN_sd
+* FreqBodyBodyGyroJerkMagSDEV_sd
 
 ###Additional information
 %he "features_info.txt" file, which was part of the original data set (see readme.MD), contains more detailed information about the original measurements in the UCI experiment.  This file is part of the github repository, https://github.com/jsteury/GetDataProject, prov
