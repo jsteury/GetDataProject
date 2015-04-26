@@ -53,5 +53,5 @@ I used the following approach in attacking this assignment.  More detail is also
 3.  My next step was to extract just the relevant columns, those that corresponded to mean and standard deviation of other measurements, as instructed in the assignment.
 4.  I then worked on the column names, cleaning them up to make them understandable and readable, and removing special characters like () and -.
 5.  To create the tidy summary dataset, I used the dplyr package and group by function, to group my final data set by subject and activity.  I then calculated the summary data mean and standard deviation using the Summarise function.
-6.  Finally, I wrote the tidy data to a file.
+6.  Finally, I wrote the tidy data to a file. [Tidy Data] (https://github.com/jsteury/GetDataProject/blob/master/summary_tidy_data.txt)
 
