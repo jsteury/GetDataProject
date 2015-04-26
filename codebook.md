@@ -8,7 +8,7 @@ output: html_document
 Codebook for Coursera Getting and Cleaning Data project
 
 
-This code book explains the data in the TidyData table produced as output in the course project.  For more detailed understanding of the variables, it is necessary to refer to the original code book, features_info.txt, which is part of the github repository.  
+This code book explains the data in the TidyData table produced as output in the course project.  For more detailed understanding of the variables, it is necessary to refer to the original code book, features_info.txt, which is part of the github repository.  [featuresInfo] (https://github.com/jsteury/GetDataProject/blob/master/features_info.txt)
 
 ##Introduction & Background
 The assignment was to combine two datasets from a UC Irvine study Samsung motion study.  The training and test datasets were to be combined into a single dataset.  Clean the data as needed and then filter down to just the set of variables representing the mean and standard deviation calculations.  Then finally, to create a new tidy data set with that summarized the mean and standard deviation of those mean and sdev variable, where mean and std dev were calculated for each subject and activity.
