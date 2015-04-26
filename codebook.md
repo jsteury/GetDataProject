@@ -136,3 +136,28 @@ FreqBodyBodyGyroMagMEAN_sd
 FreqBodyBodyGyroMagSDEV_sd
 FreqBodyBodyGyroJerkMagMEAN_sd
 FreqBodyBodyGyroJerkMagSDEV_sd
+
+Using these indexes, I looped through each file and read the relevant ones into a raw data frame, rawdata.  In each iteration, I added the raw data frame to a temporary list of data frames "dfList".  This resulted in my having the subject, activity, and observation data for each of the test and training data sets.  
+
+Using the cbind command, I combined the subject, activity, and observation data frames to build a complete training data frame and a complete test data frame. My approach was as follows.
+
+By the relative dimensions of these data frames, I could see that the dataframes would align when combined.  For example, the Activity dimensions were 6 obs of 2 variables, naming the activities.  The features dataframe, was 561 observations of 2 variables, linking the iD to a more descriptive feature name. The subject dataframe was 2947 observations of 1 variable, the subject ID.  And then the training data was 2947 of the 561 variables, with corresponding activity and subject data frames with 2947 observations of 1 and 2 variables, activity and subject, repectively. 
+
+I similarly combined the testing data observations with subjects and activities with the only material difference being that the testing data had 7352 observations.
+
+With complete training and test data frames formed, 2947 and 7352 observations,(training and testing data frames respectively) of 563 variables each (subject, activities, and 561 features), I then used the rbind command to combine into a single CombinedData dataframe, with a total of 10299 observations.
+
+Next step was to extract just the relevant columns, those that corresponded to mean and standard deviation of other measurements.  I decided to include only those with a mean() or sd() designation at the end of the variable name, dropping 6 variables that included "MeanFreq" in their name.  I believe that Mean Freq designated a particular type of measurement and not a mean of other measurements.  But honestly, this was a relatively arbitrary assessment on my part to select appropriate variables per assignment instructions.
+
+The result: 66 variables (features) in addition to the Subject and Activity columns.
+I then cleaned up the column names, excluding "()", and "-" as special characters and replacing t and f with Time and Freq.
+So I went with a naming convention that was complete and readable but not too long.  e.g.  "TimeBodyAccMEAN-X" for example or "FreqBodyAccMagMEAN".
+
+To create the tidy summary dataset, I used the dplyr package and group by function, to group my final data set by subject and activity.  I then calculated the summary data mean and standard deviation using the Summarise function.
+
+Last step in my project was to write the tidy data to a file and then read it back in to check its validity.  
+  
+Codebooks include:
+Original codebook:  features_info.txt
+
+I have summarized my tiday data set in the codebook:  TidyData.txt
