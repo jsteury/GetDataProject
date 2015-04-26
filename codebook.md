@@ -53,27 +53,27 @@ Activities	Activity Name	Character
 The Time Body Accelerometer measured variables are listed below.  the Tidy data set includes a mean and standard deviation calculated for each subject and activity combination.  The body measurements are acceleration signals calculated by the accelerometer .  Jerk signals are derived from body linear acceleration and angular velocity.  "Mag" corresponds to magnitude calculated from the XYZ coordinate measurements.
 All values are of class numeric, with values between -1 and 1.
 
--TimeBodyAccMEAN_X_mean
--TimeBodyAccJerkMEAN_X_mean
--TimeBodyAccJerkMEAN_Y_mean
--TimeBodyAccJerkMEAN_Z_mean
--TimeBodyAccJerkSDEV_X_mean
--TimeBodyAccJerkSDEV_Y_mean
--TimeBodyAccJerkSDEV_Z_mean
--TimeBodyAccMagMEAN_mean
--TimeBodyAccMagSDEV_mean
--TimeBodyAccJerkMagMEAN_mean
--TimeBodyAccJerkMagSDEV_mean
--TimeBodyAccJerkMEAN_X_sd
--TimeBodyAccJerkMEAN_Y_sd
--TimeBodyAccJerkMEAN_Z_sd
--TimeBodyAccJerkSDEV_X_sd
--TimeBodyAccJerkSDEV_Y_sd
--TimeBodyAccJerkSDEV_Z_sd
--TimeBodyAccMagMEAN_sd
--TimeBodyAccMagSDEV_sd
--TimeBodyAccJerkMagMEAN_sd
--TimeBodyAccJerkMagSDEV_sd
+* TimeBodyAccMEAN_X_mean
+* TimeBodyAccJerkMEAN_X_mean
+* TimeBodyAccJerkMEAN_Y_mean
+* TimeBodyAccJerkMEAN_Z_mean
+* TimeBodyAccJerkSDEV_X_mean
+* TimeBodyAccJerkSDEV_Y_mean
+* TimeBodyAccJerkSDEV_Z_mean
+* TimeBodyAccMagMEAN_mean
+* TimeBodyAccMagSDEV_mean
+* TimeBodyAccJerkMagMEAN_mean
+* TimeBodyAccJerkMagSDEV_mean
+* TimeBodyAccJerkMEAN_X_sd
+* TimeBodyAccJerkMEAN_Y_sd
+* TimeBodyAccJerkMEAN_Z_sd
+* TimeBodyAccJerkSDEV_X_sd
+* TimeBodyAccJerkSDEV_Y_sd
+* TimeBodyAccJerkSDEV_Z_sd
+* TimeBodyAccMagMEAN_sd
+* TimeBodyAccMagSDEV_sd
+* TimeBodyAccJerkMagMEAN_sd
+* TimeBodyAccJerkMagSDEV_sd
 
 ###Time & Gravity Accelerometer Variables
 
